@@ -6,7 +6,19 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata : {
+    title: 'Portfolio on Steroids',
+    author: 'George Nikoglou Jr'
+  },
   plugins: [
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-playground',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    }
   ],
 }
