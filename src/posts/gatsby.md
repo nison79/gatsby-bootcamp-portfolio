@@ -5,6 +5,8 @@ date: "2021-02-17"
 
 My first blog post is on the way
 
+![mountain](./mountain.jpg)
+
 ## Topics Covered
 
 1. Gatsby

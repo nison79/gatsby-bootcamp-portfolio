@@ -3,4 +3,10 @@ title: "React Power"
 date: "2021-01-23"
 ---
 
-Learn the Power of React.
+My first blog post is on the way
+
+## Topics Covered
+
+1. Redux
+2. Sass
+3. Router
