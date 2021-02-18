@@ -11,6 +11,24 @@ module.exports = {
     author: 'George Nikoglou Jr'
   },
   plugins: [
+    // {
+    //   resolve: 'gatsby-source-contentful',
+    //   options: {
+    //     spaceId: process.env.CONTENTFUL_SPACE_ID ,
+    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+    //   }
+    // },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+
+          `Poppins`,
+          `source sans pro\:300,400,400i,500 ,600,700 ,800 ,900` 
+        ],
+        display: 'swap'
+      }
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-playground',
     {

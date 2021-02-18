@@ -3,6 +3,8 @@
   max-width:750px;
   padding:1rem;
 
+  font-family: 'Poppins' ,sans-serif;
+
   display:flex;
   flex-direction: column;
   min-height:100vh;
@@ -11,4 +13,17 @@
 .content {
   flex-grow: 1;
 }
+
+h1 , h2  {
+  font-family: 'Poppins' ,sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Cardo' ;
+  font-size: 1.2rem;
+}
+
+
+
 
