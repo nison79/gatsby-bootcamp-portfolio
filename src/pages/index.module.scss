@@ -1,8 +1,27 @@
-h1 {
-  font-size: 4rem;
-
+body {
+  margin:0;
+  padding:0;
 }
 
-h2 {
-  font-size:4.2rem;
+.container {
+  h1 {
+    font-size :4rem;
+    font-weight:800;
+    
+  }
+
+  h2 {
+    font-size :2rem;
+    
+  }
+
+  p {
+    font-size :1.5rem;
+   
+  }
+
+  a {
+    text-decoration: none;
+    margin-left:0.6rem;
+  }
 }

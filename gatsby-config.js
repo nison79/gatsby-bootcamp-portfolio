@@ -4,29 +4,36 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+
+
 module.exports = {
   /* Your site config here */
   siteMetadata : {
-    title: 'Portfolio on Steroids',
+    title: 'G.Nikoglou',
     author: 'George Nikoglou Jr'
   },
   plugins: [
-    // {
-    //   resolve: 'gatsby-source-contentful',
-    //   options: {
-    //     spaceId: process.env.CONTENTFUL_SPACE_ID ,
-    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
-    //   }
-    // },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID ,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
-
-          `Poppins`,
-          `source sans pro\:300,400,400i,500 ,600,700 ,800 ,900` 
-        ],
-        display: 'swap'
+          {
+            family: 'Poppins',
+            variable: true,
+            weights: ['200..900']
+          }
+        ]
       }
     },
     'gatsby-plugin-sass',
