@@ -15,7 +15,7 @@ site {
 
 
   return (
-    <div>
+    <div className={footerStyles.container}>
       <p className={footerStyles.p}>Created by {data.site.siteMetadata.author}, © 2021</p>
     </div>
   )

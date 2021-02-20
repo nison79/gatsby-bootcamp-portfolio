@@ -12,9 +12,9 @@ const IndexPage = () => {
     <Layout>
       <Head title="Home"/>
       <div className={indexStyles.container}>
-        <h1>Hello.</h1>
-        <h2>I'm George,<br/> a full-stack developer living in beautiful Greece.</h2>
-        <p>Need a Developer? <Link to="/contact">Contact Me</Link></p>
+        <h1 className={indexStyles.heading}>Hello.</h1>
+        <h2>I'm George, a full-stack developer living in beautiful Greece.</h2>
+        <p>Need a Developer ? <Link className={indexStyles.anchor} to="/contact">Contact Me</Link></p>
       </div>
     </Layout>
   )
