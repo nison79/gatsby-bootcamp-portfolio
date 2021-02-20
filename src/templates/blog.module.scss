@@ -1,0 +1,23 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .heading {
+    position:relative;
+    font-size :5rem;
+    margin-top:5rem;
+    
+  }
+
+  .date {
+    position:absolute;
+    top:240px;
+    right:0px;
+    left:89px;
+    bottom:0;
+    font-size :0.9rem;
+    color:#29A6E0;
+    font-size: 0.8rem;
+  }
+
+}

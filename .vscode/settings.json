@@ -3,5 +3,8 @@
     "cardo",
     "frontmatter",
     "prefetch"
+  ],
+  "cSpell.ignoreWords": [
+    "noreferrer"
   ]
 }
