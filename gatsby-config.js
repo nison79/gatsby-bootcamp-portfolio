@@ -17,6 +17,7 @@ module.exports = {
     author: 'George Nikoglou Jr'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
