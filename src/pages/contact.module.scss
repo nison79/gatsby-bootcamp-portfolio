@@ -53,13 +53,28 @@
   }
 
   .submitBtn {
-    width:100px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width:130px;
     margin-top:10px;
     border:none;
     border-radius: 5px;
-    padding:10px;
+    padding:15px 15px;
     color:white;
     background-color: #de0eb1;
+    cursor: pointer;
+
+    :focus{
+      outline-style: none;
+      box-shadow: none;
+      border-color: transparent;
+      background-color: black;
+      color: white;
+    }
+
+    :hover {
+      transform:scale(1.2);
+    }
 
   }
 }

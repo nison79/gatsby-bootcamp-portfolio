@@ -25,7 +25,7 @@ const ContactPage = () => {
               <label htmlFor ="email">Email</label>
               <input type = "email" id = "email" placeholder="Enter Email" ></input>
             </div>
-            <input type="submit" value="Submit" className={contactStyles.submitBtn}/>
+            <button className={contactStyles.submitBtn}>Submit</button>
           </form>
 
 

@@ -4,11 +4,20 @@
 
   h1 {
     font-size :5rem;
+    animation: fadeBig 2s ease-in-out;
+
+  @keyframes fadeBig {
+    from {
+      
+      opacity: 0;
+    }
+    to {
+      
+      opacity:1
+    }
   }
 
-  h1:hover{
-    color:black;
-    scale:(1);
+  
   }
 }
 
