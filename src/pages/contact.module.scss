@@ -5,20 +5,85 @@
 
 .heading {
   font-size :5rem;
+  animation: fadeBig 2s ease-in-out;
+
+  @keyframes fadeBig {
+    from {
+      
+      opacity: 0;
+    }
+    to {
+      
+      opacity:1
+    }
+  }
+
 }
 
-h3{
-  font-size :2rem;
-  margin:2rem 0;
+
+
+
+.formContact {
+  
+  padding: 8px;
+    width:80%;
+  margin-bottom:10rem;
+
+
+  .names {
+    display:flex;
+  }
+
+  label {
+    font-size: 0.9rem;
+    display:block;
+    margin-bottom:1px;
+    margin-top:10px;
+  }
+
+
+  input {
+    padding: 8px;
+    width:100%;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size:0.7rem;
+    color:#de0eb1;
+  }
+
+  .submitBtn {
+    width:100px;
+    margin-top:10px;
+    border:none;
+    border-radius: 5px;
+    padding:10px;
+    color:white;
+    background-color: #de0eb1;
+
+  }
 }
+
+
+
 
 a {
   color:#EA14BC;
 }
 
+.social {
+  padding:1rem;
+  h3{
+    font-size :1rem;
+    margin:0.2rem 0;
+  }
+}
+
 .details {
-  margin-top: 5rem;;
+  padding:1rem;
+  margin-top: 5rem;
+  // box-shadow: 10px 10px 20px rgb(74, 74, 74);
   p{
-    font-size :1.2rem;
+    font-size :0.8rem;
   }
 }

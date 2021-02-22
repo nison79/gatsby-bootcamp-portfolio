@@ -22,6 +22,9 @@ body {
     margin:0;
     transform:scale(1);
     transition: ease-in-out 0.5s;
+    animation-name: fadeBig;
+    animation-duration: 4s;
+    
   }
 
   }
@@ -35,6 +38,11 @@ body {
 
   h2 {
     font-size :3rem;
+    animation-name: fromleft;
+    animation-duration:1.5s;
+    animation-timing-function:ease-out;
+  
+    
     
   }
 
@@ -54,3 +62,24 @@ body {
   }
 
 
+@keyframes fadeBig {
+  from {
+    transform:scale(4);
+    opacity: 0;
+  }
+  to {
+    transform:scale(1);
+    opacity:1
+  }
+}
+
+@keyframes fromleft {
+  from {
+    
+    transform:translateX(-2000px);
+  }
+  to {
+    
+    transform:translateX(0px);
+  }
+}
