@@ -102,3 +102,11 @@ a {
     font-size :0.8rem;
   }
 }
+
+textarea{
+  margin-top: 20px;
+  width:100%;
+  height:200px;
+  // outline:none;
+  resize: none;
+}

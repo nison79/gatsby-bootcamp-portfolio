@@ -12,7 +12,7 @@ const ContactPage = () => {
         <Head title="Contact" /> 
         <h1 className={contactStyles.heading}>Contact</h1>
         
-        <form className={contactStyles.formContact} action="">
+        <form id="contact-form" className={contactStyles.formContact} action="">
             <div>
               <label htmlFor ="first-name">First Name</label>
               <input type = "text" id = "first-name" placeholder="Enter First Name" ></input>
@@ -25,8 +25,11 @@ const ContactPage = () => {
               <label htmlFor ="email">Email</label>
               <input type = "email" id = "email" placeholder="Enter Email" ></input>
             </div>
+            <textarea form_id="contact-form" placeholder="Send me your message..."></textarea>
             <button className={contactStyles.submitBtn}>Submit</button>
-          </form>
+            </form>
+            
+          
 
 
 
